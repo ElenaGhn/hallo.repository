@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body:hover {
+	background-color: #FFE4E1;
+}
+
+.hallo:hover {
+ 	color: red;
+ }
+ span:hover{
+ 	color:#000;
+ }
+
+ .button:hover [type="button"] {
+	color:blue;
+	background-color: yellow;
+	border: 1px solid white;
+	outline: 3px solid red;
+
+}
+
+small:hover {
+	color: 	#C71585;
+	font-family: 'Indie Flower';
+}
+
+.hallo {
+	width: 100%;
+	color: #8A2BE2;
+	font-size: 35px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;}
+   
+   span {
+ 	font-family: 'Russo One', sans-serif;
+}
+
+ small {
+ 	width: 100;
+  color: #FF69B4;
+  font-size: 27px;
+  margin-left: 33px;
+  font-family: 'Dancing Script', cursive;
+}
+
+input[type=text] {
+  background-color: transparent;
+  width: 40%;
+  padding: 11px 20px;
+  margin: 8px 0;
+  margin-left: 31px;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid red;
+ 
+}
+
+.button [type="button"] {
+  background-color: transparent;
+  border: 3px solid #FFB6C1;
+  padding: 9px;
+  color: #FF69B4;
+  font-size:20px;
+  box-sizing: border-box;
+  margin-right: 63px;
+  margin-top: 0px;
+  float: right;
+  cursor: pointer;
+  font-family: bold;
+}
+
+
+#box {
+	border: 2px solid blue;
+	border-radius: 2px;
+	outline: 2px solid white;
+}
+
+/* figuren*/
+
+#fig1 {
+    width: 0px;
+    height: 0px;
+    border: 100px solid #EE82EE;
+    border-top: 80px solid #EE82EE;
+    border-right: 100px solid #EE82EE;
+    border-bottom: 80px solid #EE82EE;
+    margin: 0px auto;
+    margin-left: 100px;
+}
+
+#fig2 {
+	background-color: #00BFFF;
+	width: 160px;
+	height: 160px;
+	border-radius: 100px;
+	border: 3px dashed black;
+	margin: 0px auto;
+
+}
+
+#fig3 {
+    width: 0px;
+    height: 0px;
+    border: 80px solid white;
+    margin: 0px auto;
+    margin-right: 100px;
+}
+
+.boxen {
+	
+	display: flex;
+
+}
+.border {
+	outline: 3px dashed black;
+}
+
+ /* paragraf*/
+
+p {
+	color: 	#800080;
+	border:2px solid blue;
+	padding: 7px;
+	margin: 7%;
+	margin-bottom: 5%;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* container */
+
+.container {
+   border: 2px solid blue;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+   padding-top: 50px;
+   padding-bottom: 60px;
+   align-items: baseline;
+   background-color: lavender;
+ }
+
+ .item {
+   outline: 2px solid yellow;
+  color: blue;
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
+  background-color: #FF7F50;
+ }
+
+  .item-1 {
+    border: 90px solid #FF7F50;
+    border-top: 75px solid #FF7F50;
+    border-bottom: 90px solid #FF7F50;
+    display: flex;
+    align-self: center;
+ }
+
+ .item-2 {
+    border: 100px solid #FF7F50;
+    border-top: 40px solid #FF7F50;
+    border-bottom: 40px solid #FF7F50;
+    display: flex;
+    align-self: center;
+ }
+
+ .item-3 {
+    border: 70px solid #FF7F50;
+    border-top: 100px solid #FF7F50;
+    border-bottom: 100px solid #FF7F50;
+
+} 
+
+  .item-4 {
+    border: 60px solid #FF7F50;
+    border-top: 75px solid #FF7F50;
+    border-bottom: 75px solid #FF7F50;
+    display: flex;
+    align-self: center;    
+ }
+
+ /* last section*/
+
+#buttons {
+    border: 1px solid black;
+    outline: 3px solid yellow;
+    border-radius: 5px;
+    padding: 35px;
+    background-color: #FFE4E1;
+    margin: 5px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#buttons:hover {
+  background-color: #FFF0F5;
+}
+
+
+
+
+@media only screen and (max-width: 1024px ) {
+  /* ipad */
+  
+
+  body {
+    background-color: #F0F8FF;
+  }
+
+ section {
+	border: 2px solid blue;
+	border-radius: 2px;
+	outline-bottom: 4px solid white;
+	outline-right: 4px solid white;
+}
+
+#button [type="button"] {
+   margin-right: 10%;
+}
+
+
+#fig1 {
+    border: 80px solid #EE82EE;
+    border-top: 60px solid #EE82EE;
+    border-right: 80px solid #EE82EE;
+    border-bottom: 60px solid #EE82EE;
+  
+}
+
+#fig2 {
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	border: 3px dashed black;
+}
+
+#fig3 {
+	border: 60px solid white;
+}
+
+/* container*/
+
+  .item-1 {
+    border: 60px solid #FF7F50;
+    border-top: 45px solid #FF7F50;
+    border-bottom: 40px solid #FF7F50;
+    display: flex;
+    align-self: center;
+ }
+
+ .item-2 {
+    border: 60px solid #FF7F50;
+    border-top: 20px solid #FF7F50;
+    border-bottom: 20px solid #FF7F50;
+    display: flex;
+    align-self: center;
+ }
+
+ .item-3 {
+    border: 50px solid #FF7F50;
+    border-top: 80px solid #FF7F50;
+    border-bottom: 80px solid #FF7F50;
+
+} 
+
+  .item-4 {
+    border: 40px solid #FF7F50;
+    border-top: 55px solid #FF7F50;
+    border-bottom: 55px solid #FF7F50;
+    display: flex;
+    align-self: center;    
+ }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  body {
+    background-color: #FAF0E6;
+  }
+
+
+small:hover {
+	font-size: 20px;
+}
+
+section {
+	border: 2px solid blue;
+	border-radius: 2px;
+	outline-bottom: 4px solid white;
+	outline-right: 4px solid white;
+}
+
+/* div */
+
+#fig1 {
+    border: 45px solid #EE82EE;
+    border-top: 30px solid #EE82EE;
+    border-right: 45px solid #EE82EE;
+    border-bottom: 30px solid #EE82EE;
+    margin-left: 8%;
+    margin: 10% auto;
+}
+
+#fig2 {
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	margin: 10% auto;
+}
+
+#fig3 {
+	border: 30px solid white;
+	margin: 10% auto;
+	
+}
+
+/* container*/
+.item {
+  display: flex;
+  justify-content: space-around;
+
+}
+  .item-1 {
+    border: 20px solid #FF7F50;
+    border-top: 15px solid #FF7F50;
+    border-bottom: 15px solid #FF7F50;
+   
+ }
+
+ .item-2 {
+    border: 5px solid #FF7F50;
+    border-top: 10px solid #FF7F50;
+    border-bottom: 10px solid #FF7F50;
+ 
+ }
+
+ .item-3 {
+    border: 15px solid #FF7F50;
+    border-top: 25px solid #FF7F50;
+    border-bottom: 25px solid #FF7F50;
+
+} 
+
+  .item-4 {
+    border: 20px solid #FF7F50;
+    border-top: 15px solid #FF7F50;
+    border-bottom: 15px solid #FF7F50;
+       
+ }
+
+ #buttons {
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+}
+}
